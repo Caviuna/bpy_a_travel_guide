@@ -1,9 +1,9 @@
 """
 This code is cube animation using square grid.
 
+Blender version: 2.9 & 3.0 (tested) 
+
 """
-
-
 
 import bpy 
 
