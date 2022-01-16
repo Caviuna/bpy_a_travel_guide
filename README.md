@@ -9,3 +9,7 @@ Only copy the script to the Blender scripts folder.
 
 
 
+
+
+https://user-images.githubusercontent.com/87449988/149677300-0806b69d-175a-4e42-a80d-ab5fe94d5b77.mp4
+
