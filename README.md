@@ -7,6 +7,8 @@ Installation
 Blender version 2.9 or 3.0.
 Only copy the script to the Blender scripts folder. 
 
+### Creat one Collection "Cubes" and select it. 
+
 
 
 
