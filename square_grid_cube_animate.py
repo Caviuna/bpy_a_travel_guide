@@ -26,7 +26,9 @@ for x in grid_loc:
             elif obj_type == 3: 
                 bpy.ops.mesh.primitive_cube_add(size=2, align='WORLD',location=obj_location, scale=(1, 1, 1))
   
-cubes = bpy.data.collections["Cubes"].objects
+
+# select collection for up cubes or creante new collection and select it 
+cubes = bpy.data.collections["Collection"].objects
 
 offset = 0  
 for x in cubes: 
@@ -41,3 +43,5 @@ for x in cubes:
     x.rotation_euler = [0, 0, 0] 
     x.keyframe_insert(data_path = "rotation_euler", frame = 120 + offset)
     offset += 1 
+
+
