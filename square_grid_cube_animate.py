@@ -34,12 +34,18 @@ offset = 0
 for x in cubes: 
     x.rotation_euler = [0, 0, 0] 
     x.keyframe_insert(data_path = "rotation_euler", frame = 1 + offset)
+    x.scale = (1, 1, 1)
+    x.keyframe_insert(data_path = "scale", frame = 1 + offset)
     x.rotation_euler = [1, 1, 10] 
     x.keyframe_insert(data_path = "rotation_euler", frame = 50 + offset)
     x.rotation_euler = [.5, 1,.5] 
+    x.scale = (2, 2, 2)
+    x.keyframe_insert(data_path = "scale", frame = 58 + offset)
     x.keyframe_insert(data_path = "rotation_euler", frame = 70 + offset)
     x.rotation_euler = [1, 1, 1] 
     x.keyframe_insert(data_path = "rotation_euler", frame = 80 + offset)
+    x.scale = (1, 1, 1)
+    x.keyframe_insert(data_path = "scale", frame = 85 + offset)
     x.rotation_euler = [0, 0, 0] 
     x.keyframe_insert(data_path = "rotation_euler", frame = 120 + offset)
     offset += 1 
